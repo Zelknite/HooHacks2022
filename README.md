@@ -11,24 +11,17 @@
 
 
 
-## Table of contents[![](./docs/img/pin.svg)](#table-of-contents)
+## Table of contents[![](./Images/pin.svg)](#table-of-contents)
 We'd love for you to take a look at our project!
 1. [Motivation](#motivation)
 2. [How It Works](#how-it-works)
    - [CPU](#CPU)
-   - [Clock](#Clock) \
-   ![Heart Smiling](https://raw.githubusercontent.com/Descent098/ezcv/master/.github/logo.png)
-
-   - [Console](#Console)\
-   someting here
-   - [Memory](#Memory)\
-   something here
-   - [Power](#Power) \
-   somethering heress
-3. [Installation and Dependencies](#installation-and-dependencies)\
-something ehre
-4. [License](#License)\
-you know the story
+   - [Clock](#Clock)
+   - [Console](#Console)
+   - [Memory](#Memory)
+   - [Power](#Power)
+3. [Installation and Dependencies](#installation-and-dependencies)
+4. [License](#License)
 
 
 
@@ -49,12 +42,12 @@ you know the story
 
 - #### [Memory](#Memory)
   <img src="https://github.com/Zelknite/HooHacks2022_TeamJAR/blob/main/Images/Memory.png?raw=true" alt="Memory.png">
-something here
+
 - #### [Power](#Power)
 <img src="https://github.com/Zelknite/HooHacks2022_TeamJAR/blob/main/Images/power.png?raw=true" alt="power.png">
-somethering heress
 
-## Installation:[![](./docs/img/pin.svg)](#installation-and-dependencies)
+
+## Installation:[![](./Images/pin.svg)](#installation-and-dependencies)
 > pip install pygame_gui
 
 >attrs==21.4.0
@@ -84,5 +77,5 @@ somethering heress
 >tomli==2.0.1
 <br>
 
-## License:
+## License:[![](./Images/pin.svg)](#License)
 GPL3
