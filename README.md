@@ -56,6 +56,7 @@ We'd love for you to take a look at our project!
 Remember how we talked about data and addresses? I hold both of these pieces to create a program that I send to the CPU. 
 
   <img src="https://github.com/Zelknite/HooHacks2022_TeamJAR/blob/main/Images/Memory.png?raw=true" alt="Memory.png">
+  
   Think of a program like a very tall shelf with cubbies for each address that holds a piece of data. Every time the CPU needs some data, it just goes to the cubby or address where that data is, grabs it, and then does something with it!
 
 - #### [Console](#Console)
