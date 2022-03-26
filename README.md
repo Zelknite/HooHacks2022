@@ -52,7 +52,7 @@ We'd love for you to take a look at our project!
 
 
 - #### [Memory](#Memory)
-Hi there! I’m your computer’s memory. Think of me as the library of your computer that holds your program and all the data that it needs to work. 
+  Hi there! I’m your computer’s memory. Think of me as the library of your computer that holds your program and all the data that it needs to work. 
 Remember how we talked about data and addresses? I hold both of these pieces to create a program that I send to the CPU. 
 
   <img src="https://github.com/Zelknite/HooHacks2022_TeamJAR/blob/main/Images/Memory.png?raw=true" alt="Memory.png">
