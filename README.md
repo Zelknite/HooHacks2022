@@ -46,7 +46,7 @@ We'd love for you to take a look at our project!
 - #### [Clock](#Clock)
   Hello, I’m a clock! I act as the ‘heart’ of your computer by pulsing high and low signals to the rest of my system like a heart beats in your body.
   
-  <img src="https://github.com/Zelknite/HooHacks2022_TeamJAR/blob/main/Images/Clock_with_heart.png?raw=true" alt="Clock_with_heart.png">
+  <img src="https://github.com/Zelknite/HooHacks2022_TeamJAR/blob/main/Images/Clock_with_heart.png?raw=true" alt="Clock_with_heart.png" class="center">
 
   Each time I pulse, I output a high pulse that tells the computer to perform one instruction. The more times I pulse per second, the faster the computer can do cool things like run video games or play a YouTube video. The clock in your computer pulses over 3 billion times a second! 
 
