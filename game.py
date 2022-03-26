@@ -73,15 +73,15 @@ screen = pygame.display.set_mode(size)
 speed = [2, 2]
 background_color = 255, 255, 255
 
-moving_sprites = pygame.sprite.Group()
+animated_sprites = pygame.sprite.Group()
 heart = Heart(10, 10)
 power = Power(10, 10)
 memory = Memory(10, 10)
 cpu = CPU(10,10)
-moving_sprites.add(heart)
-moving_sprites.add(power)
-moving_sprites.add(memory)
-moving_sprites.add(cpu)
+animated_sprites.add(heart)
+animated_sprites.add(power)
+animated_sprites.add(memory)
+animated_sprites.add(cpu)
 
 while 1:
 	# Handles the close button
