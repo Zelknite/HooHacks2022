@@ -30,6 +30,45 @@ class Heart(pygame.sprite.Sprite):
 			self.rect.topleft = [self.pos_x, self.pos_y]
 			return self.image
 
+
+class CPU(pygame.sprite.Sprite):
+	def __init__(self, pos_x = 0, pos_y = 0):
+		super().__init__()
+		# Image and animation
+		self.images = [pygame.image.load(f"Images/CPU.png")]
+		self.image = self.images[0]
+		self.current_frame = 0
+		self.rect = self.image.get_rect()
+		self.pos_x = pos_x
+		self.pos_y = pos_y
+		self.rect.topleft = [self.pos_x, self.pos_y]
+
+class Memory(pygame.sprite.Sprite):
+	def __init__(self, pos_x = 0, pos_y = 0):
+		super().__init__()
+		# Image and animation
+		self.images = [pygame.image.load(f"Images/Memory.png")]
+		self.image = self.images[0]
+		self.current_frame = 0
+		self.rect = self.image.get_rect()
+		self.pos_x = pos_x
+		self.pos_y = pos_y
+		self.rect.topleft = [self.pos_x, self.pos_y]
+
+class Power(pygame.sprite.Sprite):
+	def __init__(self, pos_x = 0, pos_y = 0):
+		super().__init__()
+		# Image and animation
+		self.images = [pygame.image.load(f"Images/BetterPower.gif")]
+		self.image = self.images[0]
+		self.current_frame = 0
+		self.rect = self.image.get_rect()
+		self.pos_x = pos_x
+		self.pos_y = pos_y
+		self.rect.topleft = [self.pos_x, self.pos_y]
+
+
+
 size = width, height = 1280, 720
 screen = pygame.display.set_mode(size)
 speed = [2, 2]
@@ -37,7 +76,13 @@ background_color = 255, 255, 255
 
 moving_sprites = pygame.sprite.Group()
 heart = Heart(10, 10)
+power = Power(10, 10)
+memory = Memory(10, 10)
+cpu = CPU(10,10)
 moving_sprites.add(heart)
+moving_sprites.add(power)
+moving_sprites.add(memory)
+moving_sprites.add(cpu)
 
 while 1:
 	# Handles the close button
@@ -48,6 +93,12 @@ while 1:
 			if event.button == 1:
 				heart.rect.x = event.pos[0]
 				heart.rect.y = event.pos[1]
+				power.rect.x = event.pos[0]
+				power.rect.y = event.pos[1]
+				memory.rect.x = event.pos[0]
+				memory.rect.y = event.pos[1]
+				cpu.rect.x = event.pos[0]
+				cpu.rect.y = event.pos[1]
 
 	screen.fill(background_color)
 	moving_sprites.draw(screen)
