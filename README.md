@@ -64,7 +64,7 @@ Remember how we talked about data and addresses? I hold both of these pieces to 
 
   
 - #### [Power](#Power)
-Watts up! I’m food that goes into the belly of the computer! The CPU, Clock, Memory, and the Console all rely on me to keep them working in tip top shape! Just like you need food to fill your stomach, computer’s need electricity to live!
+  Watts up! I’m food that goes into the belly of the computer! The CPU, Clock, Memory, and the Console all rely on me to keep them working in tip top shape! Just like you need food to fill your stomach, computer’s need electricity to live!
 
   <img src="https://github.com/Zelknite/HooHacks2022_TeamJAR/blob/main/Images/BetterPower.gif?raw=true" alt="power.png">
 
