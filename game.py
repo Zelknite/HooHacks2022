@@ -156,10 +156,6 @@ class game(pyglet.window.Window):
 
 	# Required to drag items across the screen
 	def on_mouse_drag(self, x, y, dx, dy, button, modifiers):
-		# Checks if the mouse is over the heart animation while it was dragged, works
-		# if (((self.height - self.heart_animation.x - self.heart_animation.height) > x) and (self.heart_animation.x < x) and ((self.width - self.heart_animation.y - self.heart_animation.width) > y) and (self.heart_animation.y < y)):
-		# 	self.heart_animation.update(dx, dy)
-		# 	self.heart_animation.check_bounds(self.width, self.height)
 		pass
 
 	def on_mouse_enter(self, x, y):
