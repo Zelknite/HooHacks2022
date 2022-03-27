@@ -66,33 +66,10 @@ Remember how we talked about data and addresses? I hold both of these pieces to 
 
 
 ## Installation:[![](./Images/pin.svg)](#installation-and-dependencies)
-> pip install pygame_gui
 
->attrs==21.4.0
+To run the script on your machine, pull the code with `git clone https://github.com/Zelknite/HooHacks2022_TeamJAR.git`.
+Then, run `pip install -r requirements.txt` from within the recently created folder. Then you can run the game with `python3 game.py`.
 
->flake8==4.0.1
-
->iniconfig==1.1.1
-
->mccabe==0.6.1
-
->packaging==21.3
-
->pluggy==1.0.0
-
->py==1.11.0
-
->pycodestyle==2.8.0
-
->pyflakes==2.4.0
-
->pygame==2.1.2
-
->pyparsing==3.0.7
-
->pytest==7.1.1
-
->tomli==2.0.1
 <br>
 
 ## License:[![](./Images/pin.svg)](#License)
