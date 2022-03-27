@@ -55,10 +55,10 @@ class game(pyglet.window.Window):
 		self.step4 = sprites(pyglet.image.load('Images/step4.png'), batch=self.batches[3], group=self.background, x = 0, y = 0)
 		self.step5 = sprites(pyglet.image.load('Images/step5.png'), batch=self.batches[4], group=self.background, x = 0, y = 0)
 
-		self.arrow_clock_label = sprites(pyglet.image.load('Images/arrow.png'), batch=self.batches[0], group=self.foreground, x = 835, y = (self.height//3) + 50)
-		self.arrow_power_label = sprites(pyglet.image.load('Images/arrow.png'), batch=self.batches[1], group=self.foreground, x = 450, y = (self.height//3))
-		self.arrow_cpu_label = sprites(pyglet.image.load('Images/arrow.png'), batch=self.batches[2], group=self.foreground, x = 1680, y = (self.height//3) + 50)
-		self.arrow_memory_label = sprites(pyglet.image.load('Images/arrow.png'), batch=self.batches[3], group=self.foreground, x = 2340, y = (self.height//3) + 50)
+		self.arrow_clock_label = sprites(pyglet.image.load('Images/arrow.png'), batch=self.batches[0], group=self.foreground, x = int(835/3840 * self.width), y = (self.height//3) + 50)
+		self.arrow_power_label = sprites(pyglet.image.load('Images/arrow.png'), batch=self.batches[1], group=self.foreground, x = int(450/3840 * self.width), y = (self.height//3))
+		self.arrow_cpu_label = sprites(pyglet.image.load('Images/arrow.png'), batch=self.batches[2], group=self.foreground, x = int(1680/3840 * self.width), y = (self.height//3) + 50)
+		self.arrow_memory_label = sprites(pyglet.image.load('Images/arrow.png'), batch=self.batches[3], group=self.foreground, x = int(2340/3840 * self.width), y = (self.height//3) + 50)
 
 		self.next = sprites(pyglet.image.load('Images/next.png'), batch=self.main_batch, group=self.foreground, x = self.width - 400, y = 0)
 		self.next.scale_y = 1.2
