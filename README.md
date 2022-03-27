@@ -18,7 +18,6 @@ We'd love for you to take a look at our project!
    - [CPU](#CPU)
    - [Clock](#Clock)
    - [Memory](#Memory)
-   - [Console](#Console)
    - [Power](#Power)
 3. [Installation and Dependencies](#installation-and-dependencies)
 4. [License](#License)
@@ -58,11 +57,6 @@ Remember how we talked about data and addresses? I hold both of these pieces to 
   <img src="https://github.com/Zelknite/HooHacks2022_TeamJAR/blob/main/Images/Memory.png?raw=true" alt="Memory.png">
   
   Think of a program like a very tall shelf with cubbies for each address that holds a piece of data. Every time the CPU needs some data, it just goes to the cubby or address where that data is, grabs it, and then does something with it!
-
-- #### [Console](#Console)
-  <!-- Need to add pictures **J** -->
-  H E L L O … T H E R E! I’m the console in charge of writing what the computer is thinking. Translating it to human terms, I am like the mouth for humans. I’m in charge of telling you and other computers what the CPU should do to show you things like websites, emails, texts and even games! I LOOOVE games. You can rely on me to help you make games to play on the computer!
-
   
 - #### [Power](#Power)
   Watts up! I’m food that goes into the belly of the computer! The CPU, Clock, Memory, and the Console all rely on me to keep them working in tip top shape! Just like you need food to fill your stomach, computer’s need electricity to live!
