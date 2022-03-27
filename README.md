@@ -9,6 +9,7 @@
   </tr>
 </table>
 
+## ⚠️ If you are using a screen less than 4K: Be very careful here! The images are not rescaled to suit a lower resolution screen.
 
 
 ## Table of contents[![](./Images/pin.svg)](#table-of-contents)
