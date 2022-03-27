@@ -1,5 +1,4 @@
 <!-- markdownlint-disable -->
-# ⚠️ If you are using a screen less than 4K: Be very careful here! The images are not recaled to suit a lower resolution screen.
 ## Project Status
 <table class="no-border">
   <tr>
@@ -10,6 +9,7 @@
   </tr>
 </table>
 
+## ⚠️ If you are using a screen less than 4K: Be very careful here! The images are not recaled to suit a lower resolution screen.
 
 
 ## Table of contents[![](./Images/pin.svg)](#table-of-contents)
